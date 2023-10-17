@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Anzhee Main Page</title>
 </head>
-<body>
+<body class="body">
     <header>
         <h1>Slogan Section</h1>
-        <input type="search" name="search"/>
+        <button><img src="#" alt="search image"></button>
 
         <img src="#" alt="Anzhee logotype">
         <a href="#"><img src="#" alt="postbox logotype"></a>
@@ -16,38 +23,39 @@
     <main>
         <section>
             <h2>Presentation Section</h2>
-            <p>Professional Stage Lighting Equipment</p>
-            <p>for theatres concert halls, cultural venues</p>
-            <ul>
-                <li><img src="#" alt="image 1"></li>
-                <li><img src="#" alt="image 2"></li>
-                <li><img src="#" alt="image 3"></li>
-                <li><img src="#" alt="image 4"></li>
+            <p id="PrSec-1">Professional Stage Lighting Equipmen</p>
+            <p id="PrSec-2">for theatres concert halls, cultural venues</p>
+            <ul class="Global-circle-button">
+                <li><button><img src="#" alt="image 1"></button></li>
+                <li><button><img src="#" alt="image 2"></button></li>
+                <li><button><img src="#" alt="image 3"></button></li>
+                <li><button><img src="#" alt="image 4"></button></li>
             </ul>
         </section>
 
-        <section>
+        <section class = "CatSec">
             <h2>Anzhee Catalogue Section</h2>
             <div>
-                <a href="#"><img src="#" alt="Moving Heads image"></a>
-                <p>Moving Heads</p>
-                <a href="#"><img src="#" alt="Led Par & Bar Lights image"></a>
-                <p>Led Par & Bar Lights</p>
+                <div><a href="#"><img src="#" alt="Moving Heads image"></a>
+                <a href="#"><p>Moving Heads</p></a></div>
+
+                <div><a href="#"><img src="#" alt="Led Par & Bar Lights image"></a>
+                <a href="#"></a><p>Led Par & Bar Lights</p></div>
             </div>
 
-            <p>EXCLUSIVE ANZHEE PRO PHOENIX SERIES</p>
-            <p>Anzhee PRO PHOENIX series presents high-quality theatrical moving heads combining excellent optics, powerful LED source, a variety of options and a low-noise cooling system. Choose your PHOENIX to rise!</p>
+            <p class="Global-heading">EXCLUSIVE ANZHEE PRO PHOENIX SERIES</p>
+            <p class="Global-text">Anzhee PRO PHOENIX series presents high-quality theatrical moving heads combining excellent optics, powerful LED source, a variety of options and a low-noise cooling system. Choose your PHOENIX to rise!</p>
             <img src="#" alt="Microphone image">
 
             <div>
                 <div><a href="#"><img src="#" alt="LIGHTING CONTROL image"></a>
-                    <p>LIGHTING CONTROL</p></div>
+                    <a href="#"><p>LIGHTING CONTROL</p></a></div>
                 
                 <div><a href="#"><img src="#" alt="THEATRICAL LIGHTING image"></a>
-                    <p>THEATRICAL LIGHTING</p></div>
+                    <a href="#"><p>THEATRICAL LIGHTING</p></a></div>
                 
                 <div><a href="#"><img src="#" alt="FOLLOW SPOT LIGHTS image"></a>
-                    <p>FOLLOW SPOT LIGHTS</p></div>
+                    <a href="#"><p>FOLLOW SPOT LIGHTS</p></a></div>
 
                 <a href="#"><img src="#" alt="VIEW CATALOGUE image"></a>
             </div>
@@ -56,32 +64,35 @@
         <section>
             <h2>Company information Section</h2>
 
-            <h3>The Company</h3>
-            <ul>
-                <li><video controls src="#">embedded videos are not supported</video></li>
-                <li><video controls src="#">embedded videos are not supported</video></li>
-                <li><video controls src="#">embedded videos are not supported</video></li>
-                <li><video controls src="#">embedded videos are not supported</video></li>
+            <h3 id = "InfSec-heading">The Company</h3>
+            <ul class="Global-circle-button">
+                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
+                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
+                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
+                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
             </ul>
 
             <h3>about us</h3>
-            <p>Anzhee Company was founded in 2015 as a vendor and a distributor of professional stage lighting equipment. Based in Moscow, Russian Federation, Anzhee has developed a wide-spread dealer network of more than 300 partners not only in Russia, but also in the CIS countries and the Middle East market. Since the very beginning our goal is to provide high-quality tools for the creative and artistic industry combining it with top level service and open transparent business relations. Currently Anzhee team consists of more than 35 skilled staff including technical specialists, marketing experts, service engineers, sales personnel, etc. We regularly participate in international professional exhibitions and various events related to stage equipment such as Prolight + Sound NAMM, Light + Audio Tec, All-Russian Congress of Sound Engineers of Music Programs, International Conference of Rental Organizations, Central Asia Light Sound and others.</p>
+
+            <p>Anzhee Company was founded in 2015 as a vendor and a distributor of professional stage lighting equipment. Based in Moscow, Russian Federation, Anzhee has developed a wide-spread dealer network of more than 300 partners not only in Russia, but also in the CIS countries and the Middle East market.</p>
+
+            <p>Since the very beginning our goal is to provide high-quality tools for the creative and artistic industry combining it with top level service and open transparent business relations.</p>
+
+            <p>Currently Anzhee team consists of more than 35 skilled staff including technical specialists, marketing experts, service engineers, sales personnel, etc. We regularly participate in international professional exhibitions and various events related to stage equipment such as Prolight + Sound NAMM, Light + Audio Tec, All-Russian Congress of Sound Engineers of Music Programs, International Conference of Rental Organizations, Central Asia Light Sound and others.</p>
+             
             <a href="#"><img src="#" alt="LEARN MORE image"></a>
         </section>
 
         <section>
             <h2>Our brands and series Section</h2>
-            <img src="#" alt="OUR BRANDS AND SERIES">
+            <p class="Global-heading">OUR BRANDS AND SERIES</p>
             <div>
                 <a href="#"><img src="#" alt="Anzhee logotype image"></a>
                 <a href="#"><img src="#" alt="Eventure Anzhee logotype image"></a>
                 <a href="#"><img src="#" alt="Phoenix series logotype image"></a>
                 <a href="#"><img src="#" alt="Prosvet logotype image"></a>
             </div>
-        </section>
-
-        <section>
-            <h2>Form Section</h2>
+        
             <form>
                 <h3>Contact us</h3>
 
@@ -96,12 +107,11 @@
 
                 <button type="submit">Send</button>
 
-                <p>By clicking subscribe I agree with Terms of Use and Privacy Policy</p>
+                <p>By clicking subscribe I agree with <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
             </form>
         </section>
     </main>
     <footer>
-        <h2>Contacts Section</h2>
         <p>Contacts</p>
         <p><a href="#">sale@anzhee.ae</a></p>
         <p><a href="#">+971 050 743 2895</a></p>
