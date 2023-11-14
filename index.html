@@ -25,14 +25,7 @@
             <h2>Presentation Section</h2>
             <p id="PrSec-1">Professional Stage Lighting Equipmen</p>
             <p id="PrSec-2">for theatres concert halls, cultural venues</p>
-
-            <ul class="List-with-button">
-                <li><button class="Global-circle-button" type="button" onclick="show1()" id="b1_button"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show2()" id="b2_button"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show3()" id="b3_button"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show4()" id="b4_button"></button></li>
-            </ul>
-
+            
             <div>
                 <img class="Global-images-mid" id="i1_image" style="display:block;" src="#" alt="image 1">
                 <img class="Global-images-mid" id="i2_image" style="display:none;" src="#" alt="image 2">
@@ -40,26 +33,33 @@
                 <img class="Global-images-mid" id="i4_image" style="display:none;" src="#" alt="image 4">
             </div>
 
+            <ul class="List-with-button">
+                <li><button class="Global-circle-button" type="button" onclick="show1_PrSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show2_PrSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show3_PrSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show4_PrSec()"></button></li>
+            </ul>
+
             <script>
-                function show1() {
+                function show1_PrSec() {
                     document.getElementById('i1_image').style.display='block';
                     document.getElementById('i2_image').style.display='none';
                     document.getElementById('i3_image').style.display='none';
                     document.getElementById('i4_image').style.display='none';
                 }
-                function show2() {
+                function show2_PrSec() {
                     document.getElementById('i1_image').style.display='none';
                     document.getElementById('i2_image').style.display='block';
                     document.getElementById('i3_image').style.display='none';
                     document.getElementById('i4_image').style.display='none';
                 }
-                function show3() {
+                function show3_PrSec() {
                     document.getElementById('i1_image').style.display='none';
                     document.getElementById('i2_image').style.display='none';
                     document.getElementById('i3_image').style.display='block';
                     document.getElementById('i4_image').style.display='none';
                 }
-                function show4() {
+                function show4_PrSec() {
                     document.getElementById('i1_image').style.display='none';
                     document.getElementById('i2_image').style.display='none';
                     document.getElementById('i3_image').style.display='none';
@@ -98,14 +98,48 @@
 
         <section>
             <h2>Company information Section</h2>
-
             <h3 id = "InfSec-heading">The Company</h3>
-            <ul class="Global-circle-button">
-                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
-                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
-                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
-                <li><button><video controls src="#">embedded videos are not supported</video></button></li>
+
+            <div>
+                <video class="Global-videos-mid" controls src="#" id="i1_video">embedded videos are not supported</video>
+                <video class="Global-videos-mid" controls src="#" id="i2_video">embedded videos are not supported</video>
+                <video class="Global-videos-mid" controls src="#" id="i3_video">embedded videos are not supported</video>
+                <video class="Global-videos-mid" controls src="#" id="i4_video">embedded videos are not supported</video>
+            </div>
+
+            <ul class="List-with-button">
+                <li><button class="Global-circle-button" type="button" onclick="show1_InfSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show2_InfSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show3_InfSec()"></button></li>
+                <li><button class="Global-circle-button" type="button" onclick="show4_InfSec()"></button></li>
             </ul>
+
+            <script>
+                function show1_InfSec() {
+                    document.getElementById('i1_video').style.display='block';
+                    document.getElementById('i2_video').style.display='none';
+                    document.getElementById('i3_video').style.display='none';
+                    document.getElementById('i4_video').style.display='none';
+                }
+                function show2_InfSec() {
+                    document.getElementById('i1_video').style.display='none';
+                    document.getElementById('i2_video').style.display='block';
+                    document.getElementById('i3_video').style.display='none';
+                    document.getElementById('i4_video').style.display='none';
+                }
+                function show3_InfSec() {
+                    document.getElementById('i1_video').style.display='none';
+                    document.getElementById('i2_video').style.display='none';
+                    document.getElementById('i3_video').style.display='block';
+                    document.getElementById('i4_video').style.display='none';
+                }
+                function show4_InfSec() {
+                    document.getElementById('i1_video').style.display='none';
+                    document.getElementById('i2_video').style.display='none';
+                    document.getElementById('i3_video').style.display='none';
+                    document.getElementById('i4_video').style.display='block';
+                }
+            </script>
 
             <h3>about us</h3>
 
