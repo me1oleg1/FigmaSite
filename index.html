@@ -21,16 +21,33 @@
         <a href="#"><img src="#" alt="postbox logotype"></a>
     </header>
     <main>
-        <section>
+        <section class="Global-List-with-buttons">
             <h2>Presentation Section</h2>
             <p id="PrSec-1">Professional Stage Lighting Equipmen</p>
             <p id="PrSec-2">for theatres concert halls, cultural venues</p>
+
             <ul class="Global-circle-button">
-                <li><button><img src="#" alt="image 1"></button></li>
-                <li><button><img src="#" alt="image 2"></button></li>
-                <li><button><img src="#" alt="image 3"></button></li>
-                <li><button><img src="#" alt="image 4"></button></li>
+                <li><button type="button" onclick="show()" id="b1_button">1</button></li>
+                <li><button type="button" onclick="show()" id="b2_button">2</button></li>
+                <li><button type="button" onclick="show()" id="b3_button">3</button></li>
+                <li><button type="button" onclick="show()" id="b4_button">4</button></li>
             </ul>
+
+            <div>
+                <img id="i1_image" src="#" alt="image 1">
+                <img id="i2_image" src="#" alt="image 2">
+                <img id="i3_image" src="#" alt="image 3">
+                <img id="i4_image" src="#" alt="image 4">
+            </div>
+
+            <script>
+                function show() {
+                document.getElementById('image')
+                    .style.display = "block";
+                document.getElementById('btnID')
+                    .style.display = "none";
+                }
+            </script>
         </section>
 
         <section class = "CatSec">
