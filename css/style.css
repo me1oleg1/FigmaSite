@@ -42,32 +42,6 @@ p .Global-heading-bold {
     font-weight: bold;
 }
 
-p .Footer-text {
-    font-size: 4.5rem;
-    color: var(--custom-color-white);
-    text-align: left;
-    text-decoration: none;
-}
-
-/*
-.Global-heading {
-    font-size: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
-
-/*
-.Global-text {
-    font-size: 1.6rem;
-    font-weight: normal;
-    line-height: normal;
-    color: var(--custom-color-dimGrey);
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
-
 .Global-images-mid {
     text-align: center;
 }
@@ -102,6 +76,12 @@ ul.List-with-button li {
     font-weight: 400px;
     text-align: right;
     color: var(--custom-color-white);
+}
+
+#Footer-text {
+    font-size: 4.5rem;
+    color: var(--custom-color-white);
+    text-align: left;
 }
 
 .CatSec {
