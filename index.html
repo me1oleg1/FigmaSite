@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- ссылки на стили для CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 
     <title>Anzhee Main Page</title>
 </head>
-<body class="body">
+<body>
     <header>
         <h1>Slogan Section</h1>
         <button><img src="#" alt="search image"></button>
@@ -80,7 +81,7 @@
             </div>
 
             <p class="Global-heading">EXCLUSIVE ANZHEE PRO PHOENIX SERIES</p>
-            <p class="Global-text">Anzhee PRO PHOENIX series presents high-quality theatrical moving heads combining excellent optics, powerful LED source, a variety of options and a low-noise cooling system. Choose your PHOENIX to rise!</p>
+            <p>Anzhee PRO PHOENIX series presents high-quality theatrical moving heads combining excellent optics, powerful LED source, a variety of options and a low-noise cooling system. Choose your PHOENIX to rise!</p>
             <img src="#" alt="Microphone image">
 
             <!-- 3 фотографии с ссылками + view catalogue -->
@@ -144,7 +145,7 @@
                 }
             </script>
 
-            <h3>about us</h3>
+            <h3 class="p .Global-heading-bold">about us</h3>
 
             <p>Anzhee Company was founded in 2015 as a vendor and a distributor of professional stage lighting equipment. Based in Moscow, Russian Federation, Anzhee has developed a wide-spread dealer network of more than 300 partners not only in Russia, but also in the CIS countries and the Middle East market.</p>
 
@@ -167,27 +168,27 @@
             </div>
         
             <form>
-                <h3>Contact us</h3>
+                <h3 class="p .Global-heading-bold">Contact us</h3>
 
-                <p><label for="name">Enter Your Name*:</label>
+                <p class="Form-text"><label for="name">Enter Your Name*:</label>
                     <input type="text" name="name" id="name" required></p>
 
-                <p><label for="email">Enter Your Email:</label>
+                <p class="Form-text"><label for="email">Enter Your Email:</label>
                     <input type="email" name="email" id="email" required></p>
 
-                <p><label for="request">Enter Request*:</label>
+                <p class="Form-text"><label for="request">Enter Request*:</label>
                     <input type="text" name="request" id="request" required></p>
 
                 <button type="submit">Send</button>
 
-                <p>By clicking subscribe I agree with <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+                <p style="font-size: 1.4rem;">By clicking subscribe I agree with <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
             </form>
         </section>
     </main>
     <footer>
         <p>Contacts</p>
-        <p><a href="#">sale@anzhee.ae</a></p>
-        <p><a href="#">+971 050 743 2895</a></p>
+        <p class="p .Footer-text"><a href="#">sale@anzhee.ae</a></p>
+        <p class="p .Footer-text"><a href="#">+971 050 743 2895</a></p>
         <div>
             <a href="#"><img src="#" alt="Facebook logo"></a>
             <a href="#"><img src="#" alt="Instagramm logo"></a>
@@ -196,7 +197,7 @@
             <a href="#"><img src="#" alt="VK logo"></a>
         </div>
 
-        <p>(c)2023 Anzhee All rights reserved</p>
+        <p style="font-size: 1.4rem;">(c)2023 Anzhee All rights reserved</p>
     </footer>
 </body>
 </html>
