@@ -13,25 +13,25 @@
 html {
     box-sizing: border-box;
     width: 39rem;
-    margin: 0 auto;
+    margin: 0rem auto;
   }
 
 header {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
-    padding: 1.5rem;
+    padding: 0rem 1.5rem;
 }
 
 section {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
-    padding: auto 1.5rem;
+    padding: 0rem 1.5rem;
 }
 
 footer {
     box-sizing: inherit;
     background-color: var(--custom-color-black);
-    padding: auto 1.5rem;
+    padding: 0rem 1.5rem;
 }
 
 body {
