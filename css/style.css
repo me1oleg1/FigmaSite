@@ -2,9 +2,9 @@
     font-size: 62,5%;
     --custom-color-dimGrey: dimGrey;
     --custom-color-black: black;
-    --custom-color-black-back: #1E1E1E;
+    --custom-color-black-sections: #1E1E1E;
     --custom-color-black-form: #303030;
-    --custom-color-black-sections: #393939;
+    --custom-color-black-back: #393939;
     --custom-color-yellow: yellow;
     --custom-color-white: white;
     --custom-color-pink: pink;
@@ -12,27 +12,28 @@
 
 html {
     box-sizing: border-box;
-    width: 36rem;
+    width: 39rem;
+    text-align:center;
   }
 
 header {
     box-sizing: inherit;
     margin: 0 auto 1rem;
-    padding: auto 1 rem auto;
+    padding: auto 1.5rem auto;
 }
 
 section {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
     margin: 0 auto 0;
-    padding: auto 1 rem auto;
+    padding: auto 1.5rem auto;
 }
 
 footer {
     box-sizing: inherit;
     background-color: var(--custom-color-black);
     margin: 1rem auto 0;
-    padding: auto 1 rem auto;
+    padding: auto 1.5rem auto;
 }
 
 body {
