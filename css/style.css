@@ -4,6 +4,7 @@
     --custom-color-black: black;
     --custom-color-black-back: #1E1E1E;
     --custom-color-black-form: #303030;
+    --custom-color-black-sections: #393939;
     --custom-color-yellow: yellow;
     --custom-color-white: white;
     --custom-color-pink: pink;
@@ -11,22 +12,32 @@
 
 html {
     box-sizing: border-box;
-    border: 10px solid #ffffff;
+    min-width: 10rem;
+    max-width: 20rem;
   }
 
 header {
     box-sizing: inherit;
-    background-color: #2E9AFF;
+    margin: 0 1rem 1rem;
+    padding: auto 1 rem auto;
 }
 
 section {
     box-sizing: inherit;
-    background-color: #F498AD;
+    background-color: var(--custom-color-black-sections);
+    min-width: 20rem;
+    max-width: 36rem;
+    margin: 0 1rem 0;
+    padding: auto 1 rem auto;
 }
 
 footer {
     box-sizing: inherit;
-    background-color: #2E9AFF;
+    background-color: var(--custom-color-black);
+    min-width: 20rem;
+    max-width: 36rem;
+    margin: 1rem 1rem 0;
+    padding: auto 1 rem auto;
 }
 
 body {
@@ -51,8 +62,6 @@ h2 {
 
 h3 {
     font-size: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p {
@@ -60,8 +69,6 @@ p {
     font-weight: normal;
     line-height: normal;
     color: var(--custom-color-dimGrey);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 p .Global-heading-bold {
