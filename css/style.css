@@ -9,11 +9,36 @@
     --custom-color-pink: pink;
 }
 
+html {
+    box-sizing: border-box;
+    border: 10px solid #ffffff;
+  }
+
+header {
+    box-sizing: inherit;
+    background-color: #2E9AFF;
+}
+
+section {
+    box-sizing: inherit;
+    background-color: #F498AD;
+}
+
+footer {
+    box-sizing: inherit;
+    background-color: #2E9AFF;
+}
+
 body {
     font-family: 'Gabarito', sans-serif;
     background-color: var(--custom-color-black-back);
     color: var(--custom-color-white);
     font-weight: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
