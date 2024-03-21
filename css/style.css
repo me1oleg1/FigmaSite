@@ -13,26 +13,29 @@
 html {
     box-sizing: border-box;
     width: 39rem;
-    margin: 5rem auto;
+    margin: 0rem auto;
   }
 
 header {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
     padding: 0rem 1.5rem;
+    margin-bottom: 0rem;
 }
 
 section {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
     padding: 0rem 1.5rem;
-    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
 
 footer {
     box-sizing: inherit;
     background-color: var(--custom-color-black);
     padding: 0rem 1.5rem;
+    margin-top: 0rem;
 }
 
 body {
@@ -61,7 +64,7 @@ h3 {
 
 form {
     background-color: var(--custom-color-black-form);
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 2rem;
 
 }
 
