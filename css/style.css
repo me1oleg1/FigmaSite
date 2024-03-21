@@ -138,10 +138,18 @@ ul.List-with-button li {
     text-align: center;
 }
 
-.images {
+.items_2 {
     float: left;
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.items_3 {
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
     align-items: center;
     justify-content: space-around;
 }
