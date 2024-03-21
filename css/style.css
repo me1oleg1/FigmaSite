@@ -144,6 +144,7 @@ ul.List-with-button li {
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-around;
+    justify-items: stretch;
 }
 
 .items_3 {
@@ -152,4 +153,5 @@ ul.List-with-button li {
     grid-template-columns: auto auto auto;
     align-items: center;
     justify-content: space-around;
+    justify-items: stretch;
 }
