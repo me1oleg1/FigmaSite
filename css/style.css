@@ -21,7 +21,6 @@ header {
     background-color: var(--custom-color-black-sections);
     padding: 1.5rem;
     margin-bottom: 0rem;
-    position: absolute;
 }
 
 section {
