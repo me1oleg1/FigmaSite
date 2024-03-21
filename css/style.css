@@ -12,31 +12,26 @@
 
 html {
     box-sizing: border-box;
-    min-width: 10rem;
-    max-width: 20rem;
+    width: 36rem;
   }
 
 header {
     box-sizing: inherit;
-    margin: 0 1rem 1rem;
+    margin: 0 auto 1rem;
     padding: auto 1 rem auto;
 }
 
 section {
     box-sizing: inherit;
     background-color: var(--custom-color-black-sections);
-    min-width: 20rem;
-    max-width: 36rem;
-    margin: 0 1rem 0;
+    margin: 0 auto 0;
     padding: auto 1 rem auto;
 }
 
 footer {
     box-sizing: inherit;
     background-color: var(--custom-color-black);
-    min-width: 20rem;
-    max-width: 36rem;
-    margin: 1rem 1rem 0;
+    margin: 1rem auto 0;
     padding: auto 1 rem auto;
 }
 
