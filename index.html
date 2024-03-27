@@ -18,31 +18,35 @@
         <h1>Slogan Section</h1>
 
         <div class="items_3">
-            <div><button><img src="#" alt="search image"></button></div>
+            <div><button><img src="images/search.png" alt="search image"></button></div>
             <div><img src="images/logo.png" alt="Anzhee logotype"></div>
-            <div><a href="#"><img src="#" alt="postbox logotype"></a></div>
+            <div><a href="#"><img src="images/box.png" alt="postbox logotype"></a></div>
         </div>
         
     </header>
     <main>
         <section>
             <h2>Presentation Section</h2>
-            <p id="PrSec-1">Professional Stage Lighting Equipment</p> 
-            <p id="PrSec-2">for theatres concert halls, cultural venues</p>
-            <!-- 4 фотографии -->
-            <div>
+             <div>
+                <div style="position: relative; top: 0rem; left: 0rem;"><p id="PrSec-1">Professional Stage Lighting Equipment</p></div>
+                
+                <div style="position: relative; top: 0rem; left: 0rem;"><p id="PrSec-2">for theatres concert halls, cultural venues</p></div>
+
                 <img class="Global-images-mid" id="i1_image" style="display:block;" src="images/main_picture.png" alt="image 1">
                 <img class="Global-images-mid" id="i2_image" style="display:none;" src="#" alt="image 2">
                 <img class="Global-images-mid" id="i3_image" style="display:none;" src="#" alt="image 3">
                 <img class="Global-images-mid" id="i4_image" style="display:none;" src="#" alt="image 4">
+            
+            <div style="position: relative; top: -2rem; left: 0 rem;">
+                <ul class="List-with-button">
+                    <li><button class="Global-circle-button" type="button" onclick="show1_PrSec()"></button></li>
+                    <li><button class="Global-circle-button" type="button" onclick="show2_PrSec()"></button></li>
+                    <li><button class="Global-circle-button" type="button" onclick="show3_PrSec()"></button></li>
+                    <li><button class="Global-circle-button" type="button" onclick="show4_PrSec()"></button></li>
+                </ul>
             </div>
-            <!-- 4 кнопки с вызовом скриптов -->
-            <ul class="List-with-button">
-                <li><button class="Global-circle-button" type="button" onclick="show1_PrSec()"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show2_PrSec()"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show3_PrSec()"></button></li>
-                <li><button class="Global-circle-button" type="button" onclick="show4_PrSec()"></button></li>
-            </ul>
+
+            </div>
             <!-- сами скрипты -->
             <script>
                 function show1_PrSec() {
@@ -77,10 +81,10 @@
             <!-- 2 фотографии с ссылками -->
             
             <div class="items_2">
-                <div><a href="#"><img src="#" alt="Moving Heads image"></a>
+                <div><a href="#"><img src="images/moving head.png" alt="Moving Heads image"></a>
                     <a href="#" style="justify-items: start;"><p>Moving Heads</p></a></div>
 
-                <div><a href="#"><img src="#" alt="Led Par & Bar Lights image"></a>
+                <div><a href="#"><img src="images/led par.png" alt="Led Par & Bar Lights image"></a>
                     <a href="#" style="justify-items: start;"><p>Led Par & Bar Lights</p></a></div>
             </div>
 
@@ -91,18 +95,18 @@
             <!-- 3 фотографии с ссылками + view catalogue -->
 
             <div class="items_2">
-                <div><a href="#"><img src="#" alt="LIGHTING CONTROL image"></a>
+                <div><a href="#"><img src="images/lighting control.png" alt="LIGHTING CONTROL image"></a>
                     <a href="#"><p>LIGHTING CONTROL</p></a></div>
                 
-                <div><a href="#"><img src="#" alt="THEATRICAL LIGHTING image"></a>
+                <div><a href="#"><img src="images/theatrical lighting.png" alt="THEATRICAL LIGHTING image"></a>
                     <a href="#"><p>THEATRICAL LIGHTING</p></a></div>
             </div>
 
             <div class="items_2">
-                <div><a href="#"><img src="#" alt="FOLLOW SPOT LIGHTS image"></a>
+                <div><a href="#"><img src="images/follow spot light.png" alt="FOLLOW SPOT LIGHTS image"></a>
                     <a href="#"><p>FOLLOW SPOT LIGHTS</p></a></div>
 
-                <div><a href="#"><img src="#" alt="VIEW CATALOGUE image"></a></div>
+                <div><a href="#"><img src="images/View Catalogue.png" alt="VIEW CATALOGUE image"></a></div>
             </div>
         </section>
 
