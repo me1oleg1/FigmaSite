@@ -132,6 +132,11 @@ ul.List-with-button li {
     font-size: 1.4rem;
 }
 
+img .CatSec {
+    width: 17.4rem;
+    height: 18.5rem;
+}
+
 #InfSec-heading {
     font-size:5rem;
     color: var(--custom-color-black);
@@ -144,14 +149,20 @@ ul.List-with-button li {
 }
 
 .items_2 {
-    float: left;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
 }
 
 .items_3 {
-    float: left;
     display: flex;
     justify-content: space-between;
+
+}
+
+.logo_footer {
+    width: 2.7rem;
+    height: 2.7rem;
+    display: flex;
+    justify-content: flex-start;
+    flex: 4rem;
 }
