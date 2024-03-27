@@ -147,7 +147,7 @@ ul.List-with-button li {
     -1px 0 1px var(--custom-color-yellow), 
     0 -1px 1px var(--custom-color-yellow);
     text-align: center;
-    margin: 1rem;
+    margin: 0rem;
 }
 
 .items_2 {
@@ -166,3 +166,16 @@ ul.List-with-button li {
     align-items: center;
     gap: 1rem;
 }
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
