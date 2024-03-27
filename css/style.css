@@ -132,7 +132,7 @@ ul.List-with-button li {
     font-size: 1.4rem;
 }
 
-img .CatSec {
+.img_CatSec {
     width: 17.4rem;
     height: 18.5rem;
 }
@@ -156,13 +156,10 @@ img .CatSec {
 .items_3 {
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo_footer {
-    width: 2.7rem;
-    height: 2.7rem;
     display: flex;
     justify-content: flex-start;
-    flex: 4rem;
+    gap: 1rem;
 }
