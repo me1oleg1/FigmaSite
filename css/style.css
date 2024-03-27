@@ -76,9 +76,15 @@ p {
     color: var(--custom-color-dimGrey);
 }
 
+.Global-heading {
+    color: var(--custom-color-white);
+    text-transform: uppercase;
+}
+
 p .Global-heading-bold {
     font-weight: bold;
     text-transform: uppercase;
+    margin: 1rem;
 }
 
 .Global-images-mid {
@@ -141,6 +147,7 @@ ul.List-with-button li {
     -1px 0 1px var(--custom-color-yellow), 
     0 -1px 1px var(--custom-color-yellow);
     text-align: center;
+    margin: 1rem;
 }
 
 .items_2 {
@@ -156,5 +163,6 @@ ul.List-with-button li {
 .logo_footer {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 1rem;
 }
