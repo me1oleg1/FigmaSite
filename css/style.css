@@ -198,10 +198,15 @@ ul.List-with-button li {
   }
 
   .SideBar {
-    grid-row-end: span 3;
-    background-color: var(--custom-color-pink);
+    display: flex;
+    background-color: var(--custom-color-black-form);
     grid-column: 1 / 2;
     grid-row: 1 / span 3;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
   }
 
   .chart-header {
