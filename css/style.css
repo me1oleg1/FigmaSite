@@ -192,11 +192,13 @@ ul.List-with-button li {
   .container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 100rem);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
-    "SideBar chart-header . . . . . ."
+    "SideBar chart-header . . . . ."
     ". chart-body . chart-body . chart-body ."
     ". chart-footer . . chart-footer . .";
+    justify-content: stretch;
+    justify-items: stretch;
   }
 
   .SideBar {
