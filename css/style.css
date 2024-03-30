@@ -193,31 +193,43 @@ ul.List-with-button li {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas:
-    "SideBar chart-header . . . . ."
-    ". chart-body . chart-body . chart-body ."
-    ". chart-footer . . chart-footer . .";
     justify-content: stretch;
     justify-items: stretch;
   }
 
   .SideBar {
-    grid-area:SideBar;
     grid-row-end: span 3;
     background-color: var(--custom-color-pink);
+    grid-column: 1 / 2;
+    grid-row: 1 / span 3;
   }
 
   .chart-header {
-    grid-area:chart-header;
-    grid-column-end: span 6;
+    grid-column: 2 / span 6;
+    grid-row: 1 / 2;
   }
 
-  .chart-body {
-    grid-area:chart-body;
-    grid-column-end: span 2;
+  .chart-body_1 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 3;
   }
 
-  .chart-footer {
-    grid-area:chart-footer;
-    grid-column-end: span 3;
+  .chart-body_2 {
+    grid-column: 4 / span 2;
+    grid-row: 2 / 3;
+  }
+
+  .chart-body_3 {
+    grid-column: 6 / span 2;
+    grid-row: 2 / 3;
+  }
+
+  .chart-footer_1 {
+    grid-column: 2 / span 3;
+    grid-row: 3 / 4;
+  }
+
+  .chart-footer_2 {
+    grid-column: 5 / span 3;
+    grid-row: 3 / 4;
   }
