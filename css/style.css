@@ -192,7 +192,7 @@ ul.List-with-button li {
   .container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     justify-content: stretch;
     justify-items: stretch;
   }
