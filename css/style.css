@@ -76,6 +76,10 @@ p {
     color: var(--custom-color-dimGrey);
 }
 
+div {
+    vertical-align: top;
+}
+
 .Global-heading {
     color: var(--custom-color-white);
     text-transform: uppercase;
@@ -191,7 +195,7 @@ ul.List-with-button li {
 
   .container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: 1.5fr repeat(6, 1fr);
     grid-template-rows: repeat(3, auto);
     justify-content: stretch;
     justify-items: stretch;
