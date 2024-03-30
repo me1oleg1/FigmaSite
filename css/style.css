@@ -188,3 +188,33 @@ ul.List-with-button li {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 100rem);
+    grid-template-areas:
+    "SideBar chart-header . . . . . ."
+    ". chart-body . chart-body . chart-body ."
+    ". chart-footer . . chart-footer . .";
+  }
+
+  .SideBar {
+    grid-area:SideBar;
+    grid-row-end: span 3;
+  }
+
+  .chart-header {
+    grid-area:chart-header;
+    grid-column-end: span 6;
+  }
+
+  .chart-body {
+    grid-area:chart-body;
+    grid-column-end: span 2;
+  }
+
+  .chart-footer {
+    grid-area:chart-footer;
+    grid-column-end: span 3;
+  }
