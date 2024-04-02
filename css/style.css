@@ -207,10 +207,11 @@ ul.List-with-button li {
     grid-column: 1 / 2;
     grid-row: 1 / span 3;
 
+    padding-top: 1rem;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    gap: 2rem;
+    align-items: left;
+    gap: 3rem;
   }
 
   .chart-header {
@@ -241,4 +242,40 @@ ul.List-with-button li {
   .chart-footer_2 {
     grid-column: 5 / span 3;
     grid-row: 3 / 4;
+  }
+
+  .RAM .container {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  }
+
+  .RAM_gallery_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1ft);
+    grid-template-rows: repeat(3, 1ft);
+    justify-content: stretch;
+    justify-items: stretch;
+  }
+
+  .RAM_button {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    z-index: 1;
+  }
+
+  .link_like_button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+  .RAM_image {
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
   }
