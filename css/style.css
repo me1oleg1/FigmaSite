@@ -207,7 +207,7 @@ ul.List-with-button li {
     grid-column: 1 / 2;
     grid-row: 1 / span 3;
 
-    padding-top: 1rem;
+    padding: 1rem;
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
@@ -249,7 +249,8 @@ ul.List-with-button li {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     justify-content: stretch;
     justify-items: stretch;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+    margin-inline: 1rem;
   }
 
   .RAM_gallery_item {
