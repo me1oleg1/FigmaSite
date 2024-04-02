@@ -250,8 +250,8 @@ ul.List-with-button li {
 
   .RAM_gallery_item {
     display: grid;
-    grid-template-columns: repeat(3, 1ft);
-    grid-template-rows: repeat(3, 1ft);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     justify-content: stretch;
     justify-items: stretch;
   }
