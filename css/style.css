@@ -244,8 +244,11 @@ ul.List-with-button li {
     grid-row: 3 / 4;
   }
 
-  .RAM .container {
+  .RAM_container {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    justify-content: stretch;
+    justify-items: stretch;
   }
 
   .RAM_gallery_item {
