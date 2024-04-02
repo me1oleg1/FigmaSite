@@ -256,7 +256,7 @@ ul.List-with-button li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     justify-content: stretch;
-    justify-items: stretch;
+    justify-items: center;
   }
 
   .RAM_button {
