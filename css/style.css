@@ -285,3 +285,27 @@ ul.List-with-button li {
     grid-row: 1 / 4;
     overflow: hidden;
   }
+
+  @media (min-width: 320px) {
+    html {
+      width: 32rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    html {
+      width: 76.8rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    html {
+      width: 144rem;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    html {
+      width: 256rem;
+    }
+  }
