@@ -1,5 +1,4 @@
 :root {
-    font-size: 62,5%;
     --custom-color-dimGrey: dimGrey;
     --custom-color-black: black;
     --custom-color-black-sections: #1E1E1E;
@@ -11,6 +10,7 @@
 }
 
 html {
+  font-size: 62.5%;
     box-sizing: border-box;
     width: 39rem;
     margin: 0rem auto;
@@ -286,30 +286,44 @@ ul.List-with-button li {
     overflow: hidden;
   }
 
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media screen and (max-width: 2560px) {
     html {
-      width: 32rem;
-      margin: 0;
+      width: 166rem;
+      margin: 0 auto;
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1440px) {
-    html {
-      width: 76.8rem;
-      margin: 0;
-    }
-  }
-
-  @media (min-width: 1440px) and (max-width: 2560px) {
+  @media screen and (max-width: 1660px) {
     html {
       width: 144rem;
-      margin: 0;
+      margin: 0 auto;
     }
   }
 
-  @media (min-width: 2560px) {
+  @media screen and (max-width: 1440px) {
     html {
-      width: 256rem;
-      margin: 0;
+      width: 120rem;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    html {
+      width: 100rem;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    html {
+      width: 70rem;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    html {
+      width: 30rem;
+      margin: 0 auto;
     }
   }
