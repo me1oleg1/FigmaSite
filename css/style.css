@@ -186,7 +186,7 @@ ul.List-with-button li {
   }
 
   .wrapper {
-    max-width: 1170px;
+    max-width: 3000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
@@ -307,9 +307,32 @@ ul.List-with-button li {
     position: absolute; top: 42rem; width: 14rem; text-transform: uppercase; margin: auto 1rem auto 20rem;
   }
 
-
   #script_head {
     position: absolute; top: 46rem; left: 0 rem;
+  }
+
+  .CatSecImg {
+    width: 17.4rem; height: 18.5rem;
+  }
+
+  #CatSecMicro {
+    height: 18.5rem; width: 36rem; margin-bottom: 1rem;
+  }
+
+  #ImgLearnMore {
+    height: 4.4rem; width: 36rem;
+  }
+
+  .ImgLogo {
+    width: 15rem;
+  }
+
+  .ImgLogoFooter {
+    width: 2.7rem;
+  }
+
+  #AllRights {
+    font-size: 1.4rem; margin: 0;
   }
 
   @media screen and (max-width: 2560px) {
