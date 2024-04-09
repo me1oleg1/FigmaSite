@@ -289,23 +289,27 @@ ul.List-with-button li {
   @media (min-width: 320px) and (max-width: 768px) {
     html {
       width: 32rem;
+      margin: 0;
     }
   }
 
   @media (min-width: 768px) and (max-width: 1440px) {
     html {
       width: 76.8rem;
+      margin: 0;
     }
   }
 
   @media (min-width: 1440px) and (max-width: 2560px) {
     html {
       width: 144rem;
+      margin: 0;
     }
   }
 
   @media (min-width: 2560px) {
     html {
       width: 256rem;
+      margin: 0;
     }
   }
