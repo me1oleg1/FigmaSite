@@ -283,4 +283,5 @@ ul.List-with-button li {
   .RAM_image {
     grid-column: 1 / 4;
     grid-row: 1 / 4;
+    overflow: hidden;
   }
