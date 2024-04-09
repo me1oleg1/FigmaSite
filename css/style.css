@@ -286,45 +286,71 @@ ul.List-with-button li {
     overflow: hidden;
   }
 
-  @media screen and (max-width: 2560px) {
-    html {
-      width: 250rem;
-    }
+  #Button_img {
+    width: 2rem;
+    background-color: var (--custom-color-black-sections);
   }
 
-  @media screen and (max-width: 2300px) {
+  #logo_img {
+    width: 13.7rem;
+  }
+
+  #post_box {
+    width: 3rem;
+  }
+
+  #text_head_1 {
+    position: absolute; top: 22rem; width: 33rem; text-transform: uppercase; margin: auto 1rem;
+  }
+
+  #text_head_2 {
+    position: absolute; top: 42rem; width: 14rem; text-transform: uppercase; margin: auto 1rem auto 20rem;
+  }
+
+
+  #script_head {
+    position: absolute; top: 46rem; left: 0 rem;
+  }
+
+  @media screen and (max-width: 2560px) {
     html {
       width: 230rem;
     }
   }
 
-  @media screen and (max-width: 1990px) {
+  @media screen and (max-width: 2300px) {
     html {
       width: 190rem;
     }
   }
 
-  @media screen and (max-width: 1660px) {
+  @media screen and (max-width: 1990px) {
     html {
       width: 160rem;
     }
   }
 
-  @media screen and (max-width: 1440px) {
+  @media screen and (max-width: 1660px) {
     html {
       width: 140rem;
     }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1440px) {
     html {
       width: 120rem;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1200px) {
     html {
       width: 70rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    html {
+      width: 40rem;
     }
   }
 
