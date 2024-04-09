@@ -288,42 +288,48 @@ ul.List-with-button li {
 
   @media screen and (max-width: 2560px) {
     html {
-      width: 166rem;
-      margin: 0 auto;
+      width: 250rem;
+    }
+  }
+
+  @media screen and (max-width: 2300px) {
+    html {
+      width: 230rem;
+    }
+  }
+
+  @media screen and (max-width: 1990px) {
+    html {
+      width: 190rem;
     }
   }
 
   @media screen and (max-width: 1660px) {
     html {
-      width: 144rem;
-      margin: 0 auto;
+      width: 160rem;
     }
   }
 
   @media screen and (max-width: 1440px) {
     html {
-      width: 120rem;
-      margin: 0 auto;
+      width: 140rem;
     }
   }
 
   @media screen and (max-width: 1200px) {
     html {
-      width: 100rem;
-      margin: 0 auto;
+      width: 120rem;
     }
   }
 
   @media screen and (max-width: 768px) {
     html {
       width: 70rem;
-      margin: 0 auto;
     }
   }
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 390px) and (orientation: portrait) {
     html {
       width: 30rem;
-      margin: 0 auto;
     }
   }
