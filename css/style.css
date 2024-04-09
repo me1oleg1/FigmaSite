@@ -95,12 +95,16 @@ p .Global-heading-bold {
     text-align: center;
     height: 40.9rem;
     width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Global-videos-mid {
     margin: 0 auto;
     height: 20.2rem;
     width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Global-circle-button {
@@ -337,13 +341,207 @@ ul.List-with-button li {
 
   @media screen and (max-width: 2560px) {
     html {
-      width: 230rem;
+      width: 210rem;
+    }
+    #Button_img {
+      width: 6rem;
+    }
+
+    #logo_img {
+      width: 30rem;
+    }
+
+    #post_box {
+      width: 8rem;
+    }
+
+    #text_head_1 {
+      top: 15rem; width: 200rem; margin: auto 28rem; font-size: 10px;
+    }
+
+    #text_head_2 {
+      top: 70rem; width: 80rem; margin: auto 1rem auto 120rem;
+    }
+
+    #PrSec-1 {
+      font-size: 14rem;
+    }
+
+    #PrSec-2 {
+      font-size: 8rem;
+      font-weight: 400px;
+    }
+
+    .Global-images-mid {
+      height: 100rem;
+      width: 205rem;
+    }
+
+    .wrapper {
+    max-width: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+    #script_head {
+      top: 100rem; left: 0 rem;
+    }
+
+    .items_2 {
+    justify-content: space-evenly;
+    }
+    
+    .CatSecImg {
+    width: 70rem; height: 70rem;
+    }
+    
+    p {
+    font-size: 5rem;
+    }
+    
+    #CatSecMicro {
+      height: 30rem; width: 80rem; margin-bottom: 1rem;
+    }
+
+    #InfSec-heading {
+      font-size: 15rem;
+    }
+
+    .Global-videos-mid {
+      height: 60rem;
+      width: 100rem;
+    }
+
+    h3 {
+      font-size: 8rem;
+    }
+    
+    #ImgLearnMore {
+      height: 10rem; width: 200rem;
+    }
+
+    .ImgLogo {
+      width: 50rem;
+    }
+
+    .ImgLogoFooter {
+      width: 10rem;
+    }
+
+    #AllRights {
+      font-size: 5rem;
+    }
+
+    #Footer-text {
+      font-size: 10rem;
     }
   }
 
   @media screen and (max-width: 2300px) {
     html {
       width: 190rem;
+    }
+  }
+
+  @media screen and (max-width: 1990px) {
+    html {
+      width: 160rem;
+    }
+    #Button_img {
+      width: 6rem;
+    }
+
+    #logo_img {
+      width: 30rem;
+    }
+
+    #post_box {
+      width: 8rem;
+    }
+
+    #text_head_1 {
+      top: 12rem; width: 150rem; margin: auto 8rem; font-size: 8px;
+    }
+
+    #text_head_2 {
+      top: 70rem; width: 80rem; margin: auto 1rem auto 72rem;
+    }
+
+    #PrSec-1 {
+      font-size: 12rem;
+    }
+
+    #PrSec-2 {
+      font-size: 8rem;
+      font-weight: 400px;
+    }
+
+    .Global-images-mid {
+      height: 100rem;
+      width: 155rem;
+    }
+
+    .wrapper {
+    max-width: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+    #script_head {
+      top: 100rem; left: 0 rem;
+    }
+
+    .items_2 {
+    justify-content: space-evenly;
+    }
+    
+    .CatSecImg {
+    width: 70rem; height: 70rem;
+    }
+    
+    p {
+    font-size: 5rem;
+    }
+    
+    #CatSecMicro {
+      height: 30rem; width: 80rem; margin-bottom: 1rem;
+    }
+
+    #InfSec-heading {
+      font-size: 15rem;
+    }
+
+    .Global-videos-mid {
+      height: 60rem;
+      width: 100rem;
+    }
+
+    h3 {
+      font-size: 8rem;
+    }
+    
+    #ImgLearnMore {
+      height: 8rem; width: 155rem;
+    }
+
+    .ImgLogo {
+      width: 50rem;
+    }
+
+    .ImgLogoFooter {
+      width: 10rem;
+    }
+
+    #AllRights {
+      font-size: 5rem;
+    }
+
+    #Footer-text {
+      font-size: 10rem;
     }
   }
 
@@ -369,7 +567,7 @@ ul.List-with-button li {
     html {
       width: 70rem;
     }
-      #Button_img {
+    #Button_img {
       width: 4rem;
     }
 
