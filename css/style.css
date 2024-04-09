@@ -346,6 +346,43 @@ ul.List-with-button li {
     html {
       width: 70rem;
     }
+      #Button_img {
+      width: 4rem;
+    }
+
+    #logo_img {
+      width: 20rem;
+    }
+
+    #post_box {
+      width: 8rem;
+    }
+
+    #text_head_1 {
+      top: 15rem; width: 70rem; margin: auto 1rem; font-size: 10px;
+    }
+
+    #text_head_2 {
+      top: 55rem; width: 34rem; margin: auto 1rem auto 28rem;
+    }
+
+    #PrSec-1 {
+      font-size: 6rem;
+    }
+
+    #PrSec-2 {
+      font-size: 3rem;
+      font-weight: 400px;
+    }
+
+    .Global-images-mid {
+      height: 60rem;
+      width: 65rem;
+    }
+    
+    #script_head {
+      top: 65rem; left: 0 rem;
+    }
   }
 
   @media screen and (max-width: 768px) {
