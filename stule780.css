@@ -327,10 +327,11 @@
 
     .links div {
         height: 300px;
+        width: 750px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: normal;
     }
 
     .boxa {
@@ -441,7 +442,7 @@
     }
 
     .footdiv {
-        width: 700px;
+        width: 650px;
         height: 100px;
         padding-left: 13px;
         margin-top: -10px;
