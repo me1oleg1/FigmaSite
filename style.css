@@ -901,7 +901,7 @@ a {
 
   .SideBar {
     display: flex;
-    background-color: var(--custom-color-black-form);
+    background-color: lightslategrey;
     grid-column: 1 / 2;
     grid-row: 1 / span 3;
 
