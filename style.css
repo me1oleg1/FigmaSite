@@ -791,16 +791,19 @@ input::placeholder {
 
 /* псевдоэлементы */
 ::selection {
-    color: #db1212;
+    color: #dadc9e;
+    /*#db1212*/
     /* Цвет текста при выделении */
     background: #1E1E1E;
     /* Цвет фона при выделении */
 }
 
 button:hover {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(3deg);
 
-    box-shadow: 0 8px 12px rgba(126, 49, 49, 0.2);
+    box-shadow: 0 8px 12px rgba(185, 177, 74, 0.2);
+
+    /*rgba(126, 121, 49, 0.2)*/
 
     /* Изменение цвета фона при наведении */
 
@@ -810,7 +813,7 @@ button:hover {
 
 button:active {
     transform: scale(0.8);
-    transform: skewX(-10deg) skewY(-5deg);
+    transform: skewX(-5deg) skewY(-3deg);
     /* Уменьшение размера кнопки при нажатии */
 }
 
